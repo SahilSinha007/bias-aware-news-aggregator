@@ -1,7 +1,6 @@
 # Bias-Aware Personalized News Aggregator 📰
 
 A powerful, real-time, multi-source web application that fetches news articles, performs sentiment analysis, and quantifies media bias for transparent and comparative news consumption.  
-**Built as an NLP mini project for academic demonstration (NMIMS Indore, NLP Course, October 2025).**
 
 ---
 
