@@ -151,13 +151,11 @@ For topic "Technology":
 ## 👨‍💻 Author
 
 **NLP Mini Project 2025**
-- Built for: Natural Language Processing Course
-- Institution: NMIMS Indore
-- Date: October 2025
+- Sahil Sinha
 
 ## 📄 License
 
-This project is for educational purposes only.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
