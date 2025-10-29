@@ -278,7 +278,6 @@ bias-aware-news-aggregator/
 └── screenshots/                # Documentation screenshots
 ```
 
-<<<<<<< HEAD
 =======
 ## 🛠️ Technology Stack
 
@@ -399,7 +398,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Streamlit for the web framework
 - Hugging Face for NLP resources
 
->>>>>>> 71350e210d1217969d6001d2ed363dc6c0e1c996
+
 ---
 
 ## 🔍 Methodology
