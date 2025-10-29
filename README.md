@@ -1,6 +1,6 @@
 # Bias-Aware Personalized News Aggregator 📰
 
-A powerful, real-time, multi-source web application that fetches news articles, performs sentiment analysis, and quantifies media bias for transparent and comparative news consumption.  
+This project is a web application that aggregates news from multiple sources, analyzes each article’s sentiment, quantifies media bias, and visualizes diversity of perspectives so users can compare headlines and identify information polarization across topics for more balanced news consumption.  
 
 ---
 
