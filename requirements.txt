@@ -1,0 +1,24 @@
+# Core dependencies
+streamlit==1.28.0
+pandas==2.1.0
+numpy==1.24.0
+requests==2.31.0
+
+# NLP and ML libraries
+transformers==4.35.0
+torch==2.1.0
+vaderSentiment==3.3.2
+nltk==3.8.1
+beautifulsoup4==4.12.0
+
+# API and data handling
+newsapi-python==0.2.7
+python-dotenv==1.0.0
+
+# Visualization
+plotly==5.17.0
+matplotlib==3.7.0
+seaborn==0.13.0
+
+# Utilities
+tqdm==4.66.0

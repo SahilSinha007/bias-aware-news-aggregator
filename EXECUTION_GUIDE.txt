@@ -1,0 +1,140 @@
+════════════════════════════════════════════════════════════════
+ BIAS-AWARE NEWS AGGREGATOR - QUICK EXECUTION GUIDE
+════════════════════════════════════════════════════════════════
+
+📦 INSTALLATION (One-time setup)
+────────────────────────────────────────────────────────────────
+
+1. Open terminal/command prompt
+
+2. Navigate to project folder:
+   cd bias-aware-news-aggregator
+
+3. Install dependencies:
+   pip install -r requirements.txt
+
+4. Get API key from: https://newsapi.org
+   (Free - takes 2 minutes)
+
+5. Create .env file:
+   - Copy .env.example to .env
+   - Add your API key: NEWSAPI_KEY=your_key_here
+
+
+▶️ RUNNING THE APPLICATION (Every time)
+────────────────────────────────────────────────────────────────
+
+SINGLE COMMAND:
+
+   streamlit run app.py
+
+That's it! Browser will open automatically at http://localhost:8501
+
+
+🎯 USING THE APP
+────────────────────────────────────────────────────────────────
+
+1. Enter API key in sidebar (if not in .env)
+2. Check topics you want (Technology, Politics, etc.)
+3. Select 2-5 news sources
+4. Click "Fetch News" button
+5. View results!
+
+
+📂 WHERE TO PLACE DATASETS (OPTIONAL)
+────────────────────────────────────────────────────────────────
+
+The app uses REAL-TIME data from NewsAPI - no datasets needed!
+
+Optional (for offline testing only):
+- Place any datasets in: data/raw/
+- Supported: CNN/DailyMail, Sentiment140, custom CSV files
+
+
+🔧 FILE EXECUTION SEQUENCE
+────────────────────────────────────────────────────────────────
+
+You run:     streamlit run app.py
+
+Automatically loads:
+   1. config.py (settings)
+   2. src/utils/news_fetcher.py (fetch news)
+   3. src/utils/sentiment_analyzer.py (analyze sentiment)
+   4. src/utils/bias_detector.py (detect bias)
+   5. Display results in browser
+
+DO NOT run individual Python files - everything runs from app.py!
+
+
+⚠️ TROUBLESHOOTING
+────────────────────────────────────────────────────────────────
+
+"Module not found":
+→ pip install -r requirements.txt --upgrade
+
+"Invalid API key":
+→ Check .env file has correct key (no spaces)
+→ Verify at https://newsapi.org/account
+
+"No articles found":
+→ Try different sources
+→ Check internet connection
+→ Some topics may have limited coverage
+
+App won't open:
+→ Manually go to: http://localhost:8501
+→ Or try: streamlit run app.py --server.port 8502
+
+
+📊 TESTING
+────────────────────────────────────────────────────────────────
+
+Quick test (5 min):
+1. Select: Technology, Business
+2. Sources: bbc-news, cnn, reuters
+3. Click Fetch
+4. Verify charts and articles appear
+
+Full test (10 min):
+- Try all 6 topics
+- Test 5 different sources
+- Check bias comparison works
+
+
+📤 FOR SUBMISSION
+────────────────────────────────────────────────────────────────
+
+1. Push to GitHub:
+   git init
+   git add .
+   git commit -m "NLP News Aggregator Project"
+   git remote add origin YOUR_REPO_URL
+   git push -u origin main
+
+2. Make repository PUBLIC
+
+3. Submit GitHub link on MS Teams
+
+
+🎓 FOR PRESENTATION (Oct 27/30)
+────────────────────────────────────────────────────────────────
+
+Before demo:
+- Run app: streamlit run app.py
+- Pre-fetch news for 2-3 topics
+- Take screenshots
+
+During demo (5-7 min):
+- Show topic selection
+- Explain sentiment analysis
+- Demonstrate bias detection
+- Show source comparison chart
+
+
+════════════════════════════════════════════════════════════════
+
+Need detailed help? Read SETUP.md
+
+Good luck! 🎉
+
+════════════════════════════════════════════════════════════════
