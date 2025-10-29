@@ -107,60 +107,60 @@ A **bias-aware personalized news aggregator** that:
 ```
 ┌──────────────────────────────────────────────────────────────┐
 │                      User Interface (Streamlit)              │
-│  - Topic Selection                                            │
-│  - Source Selection                                           │
-│  - API Key Input                                              │
+│  - Topic Selection                                           │
+│  - Source Selection                                          │
+│  - API Key Input                                             │
 └────────────────────────┬─────────────────────────────────────┘
                          │
                          ▼
 ┌──────────────────────────────────────────────────────────────┐
-│                   News Fetching Module                        │
-│  - NewsAPI / NewsData.io integration                          │
-│  - Category filtering                                         │
-│  - Source filtering                                           │
-│  - Date range filtering                                       │
+│                   News Fetching Module                       │
+│  - NewsAPI / NewsData.io integration                         │
+│  - Category filtering                                        │
+│  - Source filtering                                          │
+│  - Date range filtering                                      │
 └────────────────────────┬─────────────────────────────────────┘
                          │
                          ▼
 ┌──────────────────────────────────────────────────────────────┐
-│                  Text Preprocessing Module                    │
-│  - Remove duplicates                                          │
-│  - Clean and normalize text                                   │
-│  - Tokenization (NLTK)                                        │
+│                  Text Preprocessing Module                   │
+│  - Remove duplicates                                         │
+│  - Clean and normalize text                                  │
+│  - Tokenization (NLTK)                                       │
 └────────────────────────┬─────────────────────────────────────┘
                          │
                          ▼
 ┌──────────────────────────────────────────────────────────────┐
-│                  Sentiment Analysis Module                    │
-│  - VADER sentiment scoring                                    │
-│  - Compound score calculation [-1, +1]                        │
-│  - Sentiment classification (Pos/Neg/Neu)                     │
+│                  Sentiment Analysis Module                   │
+│  - VADER sentiment scoring                                   │
+│  - Compound score calculation [-1, +1]                       │
+│  - Sentiment classification (Pos/Neg/Neu)                    │
 └────────────────────────┬─────────────────────────────────────┘
                          │
                          ▼
 ┌──────────────────────────────────────────────────────────────┐
-│                    Bias Detection Module                      │
-│  - Source bias mapping (pre-configured)                       │
-│  - Combine source bias + sentiment                            │
-│  - Calculate weighted bias score                              │
-│  - Classify as Left/Center/Right                              │
+│                    Bias Detection Module                     │
+│  - Source bias mapping (pre-configured)                      │
+│  - Combine source bias + sentiment                           │
+│  - Calculate weighted bias score                             │
+│  - Classify as Left/Center/Right                             │
 └────────────────────────┬─────────────────────────────────────┘
                          │
                          ▼
 ┌──────────────────────────────────────────────────────────────┐
-│                   Diversity Calculation                       │
-│  - Calculate standard deviation of bias scores                │
-│  - Normalize to [0, 1] scale                                  │
-│  - Interpret diversity level                                  │
+│                   Diversity Calculation                      │
+│  - Calculate standard deviation of bias scores               │
+│  - Normalize to [0, 1] scale                                 │
+│  - Interpret diversity level                                 │
 └────────────────────────┬─────────────────────────────────────┘
                          │
                          ▼
 ┌──────────────────────────────────────────────────────────────┐
-│                   Visualization Dashboard                     │
-│  - Bias comparison charts (Plotly)                            │
-│  - Sentiment distribution tables                              │
-│  - Per-source expandable article lists                        │
-│  - Diversity score display                                    │
+│                   Visualization Dashboard                    │
+│  - Bias comparison charts (Plotly)                           │
+│  - Sentiment distribution tables                             │
+│  - Per-source expandable article lists                       │
+│  - Diversity score display                                   │
 └──────────────────────────────────────────────────────────────┘
 ```
 
@@ -491,16 +491,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 📸 Screenshots
 
 ### Dashboard Overview
-*[Insert screenshot: Main dashboard with topic selection and source checkboxes]*
+*[<img width="1598" height="987" alt="image" src="https://github.com/user-attachments/assets/70fbb541-5ce3-418b-a8d1-e531e51dcdb0" />]*
 
-### Bias Comparison Chart
-*[Insert screenshot: Plotly bar chart showing bias distribution across sources]*
-
-### Sentiment Analysis Table
-*[Insert screenshot: DataFrame with article sentiments and scores]*
-
-### Article Details
-*[Insert screenshot: Expanded article view with headline, description, metadata]*
+*[<img width="1080" height="816" alt="image" src="https://github.com/user-attachments/assets/0ae2124e-5422-419f-9722-d9574d2282b7" />]*
 
 ---
 
@@ -557,10 +550,10 @@ SOURCE_BIAS_MAP = {
 
 ### Course Information
 - **Course**: Natural Language Processing (NLP)
-- **Institution**: NMIMS Indore, Computer Engineering Department
+- **Institution**: SVKM's NMIMS Indore, Computer Engineering Department
 - **Project Type**: Mini Project (Individual)
-- **Submission Date**: October 27, 2025
-- **Faculty Guide**: [Faculty Name]
+- **Submission Date**: October 30, 2025
+- **Faculty Guide**: [Dr. Raj Gaurav Mishra]
 
 ### Learning Objectives Demonstrated
 1. Text preprocessing and tokenization
@@ -583,15 +576,8 @@ SOURCE_BIAS_MAP = {
 
 ## 👥 Contributors
 
-- **[Your Name]**  
-  - Roll No: [Your Roll Number]  
-  - Department: Computer Engineering, NMIMS Indore  
-  - Email: [your.email@example.com]
-
-### Faculty Guide
-- **[Faculty Name]**  
-  - Department: Computer Engineering  
-  - NMIMS Indore
+- **[Sahil Sinha]**  
+  - Department: Computer Engineering (STME), SVKM's NMIMS Indore  
 
 ---
 
@@ -617,10 +603,10 @@ See the [LICENSE](LICENSE) file for details.
 
 For questions, feedback, or collaboration:
 
-- **Email**: [your.email@example.com]
-- **GitHub**: [https://github.com/yourusername](https://github.com/yourusername)
-- **LinkedIn**: [Your LinkedIn Profile]
+- **Email**: [ss2003hks@gmail.com]
+- **GitHub**: (https://github.com/SahilSinha007)
+- **LinkedIn**: [www.linkedin.com/in/sahil-sinha53647]
 
 ---
 
-**⚡ Built with ❤️ for NLP Mini Project | NMIMS Indore | October 2025**
+** NLP Mini Project | NMIMS Indore | October 2025 **
