@@ -397,7 +397,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Streamlit for the web framework
 - Hugging Face for NLP resources
 
-
 ---
 
 ## 🔍 Methodology
@@ -489,9 +488,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 📸 Screenshots
 
 ### Dashboard Overview
-*[<img width="1598" height="987" alt="image" src="https://github.com/user-attachments/assets/70fbb541-5ce3-418b-a8d1-e531e51dcdb0" />]*
+*<img width="1598" height="987" alt="image" src="https://github.com/user-attachments/assets/70fbb541-5ce3-418b-a8d1-e531e51dcdb0" />*
 
-*[<img width="1080" height="816" alt="image" src="https://github.com/user-attachments/assets/0ae2124e-5422-419f-9722-d9574d2282b7" />]*
+*<img width="1080" height="816" alt="image" src="https://github.com/user-attachments/assets/0ae2124e-5422-419f-9722-d9574d2282b7" />*
 
 ---
 
