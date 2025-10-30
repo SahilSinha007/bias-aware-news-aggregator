@@ -292,12 +292,7 @@ bias-aware-news-aggregator/
 ### Real-Time Data
 - **NewsAPI**: https://newsapi.org (100 free requests/day)
 - Sources: BBC, CNN, Fox News, Reuters, The Guardian, and more
-
-### Training/Testing (Optional)
-- **CNN/DailyMail**: https://huggingface.co/datasets/abisee/cnn_dailymail
-- **Sentiment140**: https://www.kaggle.com/datasets/kazanova/sentiment140
-- Place datasets in `data/raw/` folder
-
+  
 ## 🚀 Quick Start
 
 ### 1. Setup Environment
