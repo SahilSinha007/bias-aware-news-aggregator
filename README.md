@@ -47,7 +47,7 @@ A **bias-aware personalized news aggregator** that:
 
 ### Core Functionality
 - **🎯 Personalized Topic Selection**: Choose your news categories (Technology, Politics, Sports, Business, Health, Entertainment)
-- **📰 Multi-Source Comparison**: Fetch articles from 10+ major outlets (BBC, Reuters, CNN, Fox News, The Hindu, NDTV, etc.)
+- **📰 Multi-Source Comparison**: Fetch articles from major outlets (BBC, Reuters, CNN, Fox News, The Hindu, NDTV, etc.)
 - **⚡ Real-Time API Integration**: Pulls the most recent articles using NewsAPI or NewsData.io
 - **😊 Sentiment Analysis**: VADER-based compound score for each article [-1 to +1]
 - **⚖️ Bias Detection**: Combines outlet editorial bias with dynamic sentiment scores
